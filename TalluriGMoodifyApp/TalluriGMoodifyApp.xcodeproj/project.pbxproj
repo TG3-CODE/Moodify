@@ -1,0 +1,630 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A9C9428A2DF657A800048308 /* MusicKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9C942892DF657A800048308 /* MusicKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A91865AC2DF411D500FF17A5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A91865932DF411D400FF17A5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A918659A2DF411D400FF17A5;
+			remoteInfo = TalluriGMoodifyApp;
+		};
+		A91865B62DF411D500FF17A5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A91865932DF411D400FF17A5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A918659A2DF411D400FF17A5;
+			remoteInfo = TalluriGMoodifyApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A918659B2DF411D400FF17A5 /* TalluriGMoodifyApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TalluriGMoodifyApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A91865AB2DF411D500FF17A5 /* TalluriGMoodifyAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TalluriGMoodifyAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A91865B52DF411D500FF17A5 /* TalluriGMoodifyAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TalluriGMoodifyAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9C942892DF657A800048308 /* MusicKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MusicKit.framework; path = System/Library/Frameworks/MusicKit.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		A9FDA3F22DF5210C007728E2 /* Exceptions for "TalluriGMoodifyApp" folder in "TalluriGMoodifyApp" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = A918659A2DF411D400FF17A5 /* TalluriGMoodifyApp */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		A918659D2DF411D400FF17A5 /* TalluriGMoodifyApp */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				A9FDA3F22DF5210C007728E2 /* Exceptions for "TalluriGMoodifyApp" folder in "TalluriGMoodifyApp" target */,
+			);
+			path = TalluriGMoodifyApp;
+			sourceTree = "<group>";
+		};
+		A91865AE2DF411D500FF17A5 /* TalluriGMoodifyAppTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = TalluriGMoodifyAppTests;
+			sourceTree = "<group>";
+		};
+		A91865B82DF411D500FF17A5 /* TalluriGMoodifyAppUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = TalluriGMoodifyAppUITests;
+			sourceTree = "<group>";
+		};
+		A91865E12DF4D20E00FF17A5 /* Models */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A91865E22DF4D21A00FF17A5 /* Managers */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		A91865E32DF4D22600FF17A5 /* Services */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Services;
+			sourceTree = "<group>";
+		};
+		A91865E42DF4D23300FF17A5 /* Utilities */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		A91865E52DF4D2A800FF17A5 /* Views */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A91865982DF411D400FF17A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9C9428A2DF657A800048308 /* MusicKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A91865A82DF411D500FF17A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A91865B22DF411D500FF17A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A91865922DF411D400FF17A5 = {
+			isa = PBXGroup;
+			children = (
+				A91865E52DF4D2A800FF17A5 /* Views */,
+				A91865E42DF4D23300FF17A5 /* Utilities */,
+				A91865E32DF4D22600FF17A5 /* Services */,
+				A91865E22DF4D21A00FF17A5 /* Managers */,
+				A91865E12DF4D20E00FF17A5 /* Models */,
+				A918659D2DF411D400FF17A5 /* TalluriGMoodifyApp */,
+				A91865AE2DF411D500FF17A5 /* TalluriGMoodifyAppTests */,
+				A91865B82DF411D500FF17A5 /* TalluriGMoodifyAppUITests */,
+				A9C942882DF657A800048308 /* Frameworks */,
+				A918659C2DF411D400FF17A5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A918659C2DF411D400FF17A5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A918659B2DF411D400FF17A5 /* TalluriGMoodifyApp.app */,
+				A91865AB2DF411D500FF17A5 /* TalluriGMoodifyAppTests.xctest */,
+				A91865B52DF411D500FF17A5 /* TalluriGMoodifyAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A9C942882DF657A800048308 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A9C942892DF657A800048308 /* MusicKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A918659A2DF411D400FF17A5 /* TalluriGMoodifyApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A91865BF2DF411D500FF17A5 /* Build configuration list for PBXNativeTarget "TalluriGMoodifyApp" */;
+			buildPhases = (
+				A91865972DF411D400FF17A5 /* Sources */,
+				A91865982DF411D400FF17A5 /* Frameworks */,
+				A91865992DF411D400FF17A5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				A918659D2DF411D400FF17A5 /* TalluriGMoodifyApp */,
+				A91865E12DF4D20E00FF17A5 /* Models */,
+				A91865E22DF4D21A00FF17A5 /* Managers */,
+				A91865E32DF4D22600FF17A5 /* Services */,
+				A91865E42DF4D23300FF17A5 /* Utilities */,
+				A91865E52DF4D2A800FF17A5 /* Views */,
+			);
+			name = TalluriGMoodifyApp;
+			packageProductDependencies = (
+			);
+			productName = TalluriGMoodifyApp;
+			productReference = A918659B2DF411D400FF17A5 /* TalluriGMoodifyApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A91865AA2DF411D500FF17A5 /* TalluriGMoodifyAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A91865C22DF411D500FF17A5 /* Build configuration list for PBXNativeTarget "TalluriGMoodifyAppTests" */;
+			buildPhases = (
+				A91865A72DF411D500FF17A5 /* Sources */,
+				A91865A82DF411D500FF17A5 /* Frameworks */,
+				A91865A92DF411D500FF17A5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A91865AD2DF411D500FF17A5 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				A91865AE2DF411D500FF17A5 /* TalluriGMoodifyAppTests */,
+			);
+			name = TalluriGMoodifyAppTests;
+			packageProductDependencies = (
+			);
+			productName = TalluriGMoodifyAppTests;
+			productReference = A91865AB2DF411D500FF17A5 /* TalluriGMoodifyAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A91865B42DF411D500FF17A5 /* TalluriGMoodifyAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A91865C52DF411D500FF17A5 /* Build configuration list for PBXNativeTarget "TalluriGMoodifyAppUITests" */;
+			buildPhases = (
+				A91865B12DF411D500FF17A5 /* Sources */,
+				A91865B22DF411D500FF17A5 /* Frameworks */,
+				A91865B32DF411D500FF17A5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A91865B72DF411D500FF17A5 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				A91865B82DF411D500FF17A5 /* TalluriGMoodifyAppUITests */,
+			);
+			name = TalluriGMoodifyAppUITests;
+			packageProductDependencies = (
+			);
+			productName = TalluriGMoodifyAppUITests;
+			productReference = A91865B52DF411D500FF17A5 /* TalluriGMoodifyAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A91865932DF411D400FF17A5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					A918659A2DF411D400FF17A5 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					A91865AA2DF411D500FF17A5 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = A918659A2DF411D400FF17A5;
+					};
+					A91865B42DF411D500FF17A5 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = A918659A2DF411D400FF17A5;
+					};
+				};
+			};
+			buildConfigurationList = A91865962DF411D400FF17A5 /* Build configuration list for PBXProject "TalluriGMoodifyApp" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A91865922DF411D400FF17A5;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = A918659C2DF411D400FF17A5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A918659A2DF411D400FF17A5 /* TalluriGMoodifyApp */,
+				A91865AA2DF411D500FF17A5 /* TalluriGMoodifyAppTests */,
+				A91865B42DF411D500FF17A5 /* TalluriGMoodifyAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A91865992DF411D400FF17A5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A91865A92DF411D500FF17A5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A91865B32DF411D500FF17A5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A91865972DF411D400FF17A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A91865A72DF411D500FF17A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A91865B12DF411D500FF17A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A91865AD2DF411D500FF17A5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A918659A2DF411D400FF17A5 /* TalluriGMoodifyApp */;
+			targetProxy = A91865AC2DF411D500FF17A5 /* PBXContainerItemProxy */;
+		};
+		A91865B72DF411D500FF17A5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A918659A2DF411D400FF17A5 /* TalluriGMoodifyApp */;
+			targetProxy = A91865B62DF411D500FF17A5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A91865BD2DF411D500FF17A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A91865BE2DF411D500FF17A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A91865C02DF411D500FF17A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TalluriGMoodifyApp/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TalluriGMoodifyApp/Info.plist;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "TalluriGMoodifyApp uses the microphone for voice search functionality";
+				INFOPLIST_KEY_NSMotionUsageDescription = "TalluriGMoodifyApp detects device shake to shuffle mood selection";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "TalluriGMoodifyApp uses speech recognition to search for music by voice";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Gtallur1.TalluriGMoodifyApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A91865C12DF411D500FF17A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TalluriGMoodifyApp/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TalluriGMoodifyApp/Info.plist;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "TalluriGMoodifyApp uses the microphone for voice search functionality";
+				INFOPLIST_KEY_NSMotionUsageDescription = "TalluriGMoodifyApp detects device shake to shuffle mood selection";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "TalluriGMoodifyApp uses speech recognition to search for music by voice";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Gtallur1.TalluriGMoodifyApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A91865C32DF411D500FF17A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Gtallur1.TalluriGMoodifyAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TalluriGMoodifyApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TalluriGMoodifyApp";
+			};
+			name = Debug;
+		};
+		A91865C42DF411D500FF17A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Gtallur1.TalluriGMoodifyAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TalluriGMoodifyApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TalluriGMoodifyApp";
+			};
+			name = Release;
+		};
+		A91865C62DF411D500FF17A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Gtallur1.TalluriGMoodifyAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TalluriGMoodifyApp;
+			};
+			name = Debug;
+		};
+		A91865C72DF411D500FF17A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Gtallur1.TalluriGMoodifyAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TalluriGMoodifyApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A91865962DF411D400FF17A5 /* Build configuration list for PBXProject "TalluriGMoodifyApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A91865BD2DF411D500FF17A5 /* Debug */,
+				A91865BE2DF411D500FF17A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A91865BF2DF411D500FF17A5 /* Build configuration list for PBXNativeTarget "TalluriGMoodifyApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A91865C02DF411D500FF17A5 /* Debug */,
+				A91865C12DF411D500FF17A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A91865C22DF411D500FF17A5 /* Build configuration list for PBXNativeTarget "TalluriGMoodifyAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A91865C32DF411D500FF17A5 /* Debug */,
+				A91865C42DF411D500FF17A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A91865C52DF411D500FF17A5 /* Build configuration list for PBXNativeTarget "TalluriGMoodifyAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A91865C62DF411D500FF17A5 /* Debug */,
+				A91865C72DF411D500FF17A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A91865932DF411D400FF17A5 /* Project object */;
+}

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>NSAppleMusicUsageDescription</key>
+	<string>This app uses Apple Music to play songs that match your mood.</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>TalluriGMoodifyApp needs microphone access for voice search feature</string>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>TalluriGMoodifyApp needs location access to find concerts near you</string>
+	<key>NSLocationWhenInUsageDescription</key>
+	<string>TalluriGMoodifyApp uses location to find nearby concerts and events</string>
+	<key>NSMotionUsageDescription</key>
+	<string>TalluriGMoodifyApp uses motion detection for shake to shuffle feature</string>
+	<key>NSSpeechRecognitionUsageDescription</key>
+	<string>TalluriGMoodifyApp uses speech recognition to search for music and moods using voice commands for a hands-free experience.</string>
+</dict>
+</plist>
